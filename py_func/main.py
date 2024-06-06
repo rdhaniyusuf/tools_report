@@ -9,7 +9,8 @@ app = Flask(__name__)
 CORS(app)
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    # code upload file here
+    # code uploading proces
+    process_file()
     return jsonify({"message": "File Upload Success"}), 200
 
 def process_file():

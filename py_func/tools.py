@@ -18,3 +18,7 @@ def format_id_time():
         period_day = "Sore"
     
     return [formated_date, period_day]
+
+
+def on_submit(file):
+    return file
